@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+// On importe la classe `UserProvider`
+import UserProvider from "./store/UserProvider";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UserProvider>
+      <App />
+    </UserProvider>,
   </React.StrictMode>,
   document.getElementById('root')
 );

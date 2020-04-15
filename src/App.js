@@ -1,21 +1,17 @@
-import React from 'react';
-import './App.css';
-// import User from './components/User';
-// import Card from './components/Card';
-import CardWrapper from './components/CardWrapper';
+import React from "react";
+import User from "./components/User";
 
-function App() {
-  const user = {
-    firstName: 'John',
-    lastName: 'Doe'
-  }
-  return (
-    <div className="App">
-      <header className="App-header">
-        <CardWrapper firstName={user.firstName} lastName={user.lastName} />
-      </header>
-    </div>
-  );
-}
+
+const styles = {
+  fontFamily: "sans-serif",
+  textAlign: "center"
+};
+
+const App = () => (
+  <div style={styles}>
+    {/* A noter qu'aucune propriété n'est passée au composant `User` */}
+    <User />
+  </div>
+);
 
 export default App;
