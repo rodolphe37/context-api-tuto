@@ -10,7 +10,7 @@ jusqu'à 3.12 mn.
 ## Pour le passage d'un state par le biai d'un micro-store :
 https://putaindecode.io/articles/react-16-3-et-la-nouvelle-api-context/
 
-![demo-2][passage-state-avec-micro-store.png]
+![demo-2](passage-state-avec-micro-store.png)
 
 ## Available Scripts
 
