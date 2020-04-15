@@ -1,13 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Pour le commit passage d'une valeur d'un composant à un autre :
+## Pour le commit : passage d'une valeur d'un composant à un autre :
 https://www.youtube.com/watch?v=Smx7sXIVE2U&feature=youtu.be
 jusqu'à 3.12 mn.
 
 ![demo-1](passage-value-un-composant-a-autre.png)
 
 **Ensuite je suis passé à un autre tuto,**
-## Pour le passage d'un state par le biai d'un micro-store :
+## Pour le commit : passage d'un state par le biai d'un micro-store :
 https://putaindecode.io/articles/react-16-3-et-la-nouvelle-api-context/
 
 ![demo-2](passage-state-avec-micro-store.png)
