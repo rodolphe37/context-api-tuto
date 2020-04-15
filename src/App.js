@@ -1,6 +1,6 @@
 import React from "react";
 import User from "./components/User";
-
+import './App.css'
 
 const styles = {
   fontFamily: "sans-serif",
@@ -9,8 +9,10 @@ const styles = {
 
 const App = () => (
   <div style={styles}>
-    {/* A noter qu'aucune propriété n'est passée au composant `User` */}
-    <User />
+    <div className="App-header">
+      {/* A noter qu'aucune propriété n'est passée au composant `User` */}
+      <User />
+    </div>
   </div>
 );
 
